@@ -1,0 +1,66 @@
+ONYX PDF - END USER LICENCE
+Version 0.1.0
+
+Copyright (c) 2026 William Mathieu. All rights reserved.
+
+
+WHAT YOU MAY DO
+
+You may download, install and use Onyx PDF free of charge, for any
+purpose, personal or commercial, on as many computers as you like.
+There is no registration, no licence key, and no time limit.
+
+Documents you create, edit or annotate with Onyx PDF are entirely
+yours. This licence makes no claim over them.
+
+
+WHAT YOU MAY NOT DO
+
+You may not redistribute Onyx PDF, in whole or in part, whether on
+its own, bundled with other software, or as part of a service, without
+written permission. Point people at the official download instead.
+
+You may not sell, rent, lease or sublicense Onyx PDF.
+
+You may not modify, adapt or create derivative works from it.
+
+You may not reverse engineer, decompile or disassemble it, except
+exactly so far as the law where you live gives you that right despite
+this term.
+
+You may not remove or alter any copyright, licence or attribution
+notice it displays.
+
+
+THE SOURCE CODE
+
+The source code of Onyx PDF is not published, and this licence grants
+no rights to it.
+
+
+THIRD-PARTY COMPONENTS
+
+Onyx PDF is built on open-source components that keep their own
+licences, and nothing above restricts your rights under those licences
+in respect of those components. They are listed under
+Help > Third-Party Libraries, and include PDFium (BSD 3-Clause), FLTK
+(LGPL v2 with a static-linking exception) and stb (public domain).
+
+
+NO WARRANTY
+
+Onyx PDF is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose and
+non-infringement. You use it at your own risk.
+
+To the maximum extent permitted by law, the author is not liable for
+any claim, damages or other liability, whether in contract, tort or
+otherwise, arising from or in connection with Onyx PDF or its use --
+including, without limitation, loss of or damage to any document.
+
+Keep backups of documents that matter to you.
+
+
+Questions, or want permission to redistribute?
+https://github.com/WilliamMathieu
