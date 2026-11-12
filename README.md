@@ -1,7 +1,7 @@
 # Onyx PDF
 
-A small, fast, native PDF reader and annotator for Windows. No installer, no
-account, no telemetry — two files in a folder, about 4 MB.
+A small, fast, native PDF reader and annotator for Windows. No account, no
+telemetry, about 4 MB — install it, or run it from a folder.
 
 **[Download the latest release →](https://github.com/WilliamMathieu/OnyxPDF-releases/releases/latest)**
 
@@ -12,9 +12,10 @@ like. See [LICENSE](LICENSE).
 
 ## What it does
 
-**Read** — multi-page scrolling with momentum, zoom to cursor, fit
-width/height/page, page thumbnails, document outline, find, and tabs for
-several documents at once.
+**Read** — smooth multi-page scrolling, zoom to cursor, fit
+width/height/page, two-page spread, page thumbnails, document outline, find,
+clickable links, and tabs for several documents at once. Open documents come
+back the next time you start.
 
 **Annotate** — highlight, strikethrough, sticky notes, rectangles, ellipses,
 lines, free text, and signatures (drawn freehand or from an image). Everything
@@ -31,14 +32,24 @@ over, so it cannot be recovered by selecting or extracting.
 **Manage pages** — rotate, delete, reorder by dragging, insert blank pages or
 pages from another PDF, extract a selection to a new file.
 
-Plus printing with preview, save flattened or compressed, and four themes.
+**Recover** — unsaved changes are kept in the background, and offered back if
+the app ever closes unexpectedly.
+
+Plus printing with preview, save flattened or compressed, recent files, and
+four themes.
 
 ## Installing
 
-Unzip anywhere and run `OnyxPDF.exe`. Keep `pdfium.dll` beside it. There is no
-installer, nothing is written to the registry, and no admin rights are needed —
-a USB stick works fine. To uninstall, delete the folder (settings live in
-`%APPDATA%\onyxprojects`).
+Each release comes two ways:
+
+- **`OnyxPDF-<version>-setup.exe`** — an installer with a Start-menu shortcut,
+  an optional "Open with" entry for PDFs, and an uninstaller under Settings →
+  Apps. No admin rights needed.
+- **`OnyxPDF-<version>-win-x64.zip`** — portable. Unzip anywhere and run
+  `OnyxPDF.exe`, keeping `pdfium.dll` beside it. Nothing is written to the
+  registry and a USB stick works fine. To uninstall, delete the folder.
+
+Settings live in `%APPDATA%\onyxprojects` either way.
 
 **Requirements:** Windows 10 or 11, 64-bit. No Visual C++ redistributable —
 the runtime is linked statically.
@@ -49,10 +60,10 @@ The download is not code-signed, so SmartScreen warns the first time you run
 it. Click **More info**, then **Run anyway**; Windows remembers the choice.
 
 If you would rather check before trusting it, each release lists the SHA-256 of
-its zip. Verify with:
+its files. Verify with:
 
 ```powershell
-Get-FileHash OnyxPDF-0.1.0-win-x64.zip -Algorithm SHA256
+Get-FileHash OnyxPDF-0.2.0-setup.exe -Algorithm SHA256
 ```
 
 ## Built on
