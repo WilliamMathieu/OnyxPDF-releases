@@ -23,6 +23,7 @@ you place can be selected, moved, resized, restyled or deleted, with undo.
 
 **Review** — attach a comment to a highlight or strikethrough, and open a
 column beside the page that lists every note level with the text it marks.
+Resolve comments as you deal with them, or delete them.
 
 **Fill forms** — type into AcroForm fields, copy out of them, and save.
 
@@ -35,8 +36,8 @@ pages from another PDF, extract a selection to a new file.
 **Recover** — unsaved changes are kept in the background, and offered back if
 the app ever closes unexpectedly.
 
-Plus printing with preview, save flattened or compressed, recent files, and
-four themes.
+Plus printing with preview, save flattened or compressed, recent files, four
+themes, and a Settings window — down to the look of the pan cursor.
 
 ## Installing
 
@@ -63,7 +64,7 @@ If you would rather check before trusting it, each release lists the SHA-256 of
 its files. Verify with:
 
 ```powershell
-Get-FileHash OnyxPDF-0.2.0-setup.exe -Algorithm SHA256
+Get-FileHash OnyxPDF-0.2.1-setup.exe -Algorithm SHA256
 ```
 
 ## Built on
